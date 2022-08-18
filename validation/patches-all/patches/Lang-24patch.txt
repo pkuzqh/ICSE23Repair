@@ -1,0 +1,15 @@
+nochangeLang24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java
+--- 
+
++++ 
+
+@@ -1407,6 +1407,8 @@
+
+                     || chars[i] == 'F')) {
+                 return foundDigit;
+             }
++if((hasDecPoint || hasExp)){
++return false;}
+             if (chars[i] == 'l'
+                 || chars[i] == 'L') {
+                 // not allowing L with an exponent or decimal point

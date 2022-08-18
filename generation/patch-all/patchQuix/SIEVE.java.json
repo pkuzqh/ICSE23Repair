@@ -1,0 +1,2831 @@
+[
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 0,
+        "prob": -2.641386529603315
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member all_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 1,
+        "prob": -2.7710784415782
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 2,
+        "prob": -4.041097501344438
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member max_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 3,
+        "prob": -4.463169136078869
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 4,
+        "prob": -5.844434840528062
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member sieve_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 5,
+        "prob": -6.623280954796423
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition BinaryOperation operator &&_ter ^ ^ operandl BinaryOperation operator !=_ter ^ ^ operandl MemberReference member primes_ter ^ ^ ^ ^ operandr Literal value null_ter ^ ^ ^ ^ ^ ^ operandr MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 6,
+        "prob": -6.646095801499324
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member add_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 7,
+        "prob": -6.650828200071628
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member add_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 8,
+        "prob": -6.809562411896375
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition BinaryOperation operator &&_ter ^ ^ operandl BinaryOperation operator !=_ter ^ ^ operandl MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ operandr Literal value null_ter ^ ^ ^ ^ ^ ^ operandr MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 9,
+        "prob": -6.811034733871341
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member n_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 10,
+        "prob": -6.949157015083272
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 11,
+        "prob": -6.982993646531943
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition BinaryOperation operator &&_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member max_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 12,
+        "prob": -7.153866098959296
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root IfStatement condition BinaryOperation operator ==_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 0_ter ^ ^ ^ ^ ^ ^ ^ ContinueStatement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 13,
+        "prob": -7.181378755723444
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference qualifier max_ter ^ ^ member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 14,
+        "prob": -7.2164866024214875
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member sieve_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 15,
+        "prob": -7.470161572255415
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition BinaryOperation operator &&_ter ^ ^ operandl MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ operandr MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 16,
+        "prob": -7.474206231879564
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root IfStatement condition BinaryOperation operator >_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 0_ter ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 17,
+        "prob": -7.49593143019752
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation qualifier primes_ter ^ ^ arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 18,
+        "prob": -7.677828304382213
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 19,
+        "prob": -7.802062250337337
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root StatementExpression expression MethodInvocation qualifier primes_ter ^ ^ arguments MemberReference member n_ter ^ ^ ^ ^ member add_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 20,
+        "prob": -7.806598138313794
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation qualifier primes_ter ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 21,
+        "prob": -7.884627916212368
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root IfStatement condition BinaryOperation operator !=_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 0_ter ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 22,
+        "prob": -7.905237625488635
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root IfStatement condition BinaryOperation operator <_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr BinaryOperation operator +_ter ^ ^ operandl MemberReference member max_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 23,
+        "prob": -7.9070952906295915
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition BinaryOperation operator <_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr BinaryOperation operator +_ter ^ ^ operandl MemberReference member max_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 24,
+        "prob": -7.957806508397672
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition BinaryOperation operator ||_ter ^ ^ operandl MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ operandr MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 25,
+        "prob": -7.983292250963875
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root StatementExpression expression MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 26,
+        "prob": -8.013364421464178
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition BinaryOperation operator ||_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 27,
+        "prob": -8.059017939803171
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition BinaryOperation operator &&_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 28,
+        "prob": -8.077311090935273
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation qualifier max_ter ^ ^ arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 29,
+        "prob": -8.138043752185741
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root StatementExpression expression MemberReference postfix_operators ++_ter ^ ^ member n_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 30,
+        "prob": -8.189070249236416
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root IfStatement condition BinaryOperation operator ==_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal prefix_operators -_ter ^ ^ value 1_ter ^ ^ ^ ^ ^ ^ ^ ContinueStatement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 31,
+        "prob": -8.216490911908785
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root ContinueStatement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 32,
+        "prob": -8.247480570190959
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition BinaryOperation operator &&_ter ^ ^ operandl MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ operandr BinaryOperation operator !=_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 0_ter ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 33,
+        "prob": -8.29731729116358
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root control ForControl init VariableDeclaration type BasicType name int_ter ^ ^ ^ ^ declarators VariableDeclarator name n_ter ^ ^ initializer Literal value 2_ter ^ ^ ^ ^ ^ ^ ^ ^ condition BinaryOperation operator <_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr BinaryOperation operator +_ter ^ ^ operandl MemberReference member max_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ ^ ^ update MemberReference postfix_operators ++_ter ^ ^ member n_ter ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 34,
+        "prob": -8.629892968973078
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 35,
+        "prob": -8.726094545526557
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root BreakStatement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 36,
+        "prob": -8.890800082548266
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference postfix_operators ++_ter ^ ^ member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 37,
+        "prob": -9.435572987030156
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root ReturnStatement expression MemberReference member primes_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 38,
+        "prob": -9.524301337515858
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference prefix_operators ~_ter ^ ^ member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 39,
+        "prob": -9.692046759430399
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member max_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 40,
+        "prob": -10.094121075852607
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member any_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 41,
+        "prob": -10.106289303946667
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member sieve_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 42,
+        "prob": -10.447933426512241
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root Statement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 43,
+        "prob": -10.477635130544458
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root ContinueStatement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 44,
+        "prob": -10.504463115857623
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member list_comp_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 45,
+        "prob": -10.528165350576534
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 46,
+        "prob": -10.708404227696155
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member min_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 47,
+        "prob": -10.799438479788172
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member add_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 48,
+        "prob": -10.936735212650916
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root StatementExpression expression MethodInvocation qualifier primes_ter ^ ^ arguments MemberReference member n_ter ^ ^ ^ ^ member add_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 49,
+        "prob": -11.198842964601402
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root ReturnStatement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 50,
+        "prob": -11.2979299403091
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member primes_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 51,
+        "prob": -11.30184497593178
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root Statement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 52,
+        "prob": -11.476249777790104
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member max_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 53,
+        "prob": -11.486764172193439
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root BreakStatement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 54,
+        "prob": -11.618328889792192
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root ReturnStatement expression MemberReference member primes_ter ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 55,
+        "prob": -11.680385024423666
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root LocalVariableDeclaration type ReferenceType name ArrayList_ter ^ ^ arguments TypeArgument type ReferenceType name Integer_ter ^ ^ ^ ^ ^ ^ ^ ^ declarators VariableDeclarator name primes_ter ^ ^ initializer ClassCreator type ReferenceType name ArrayList_ter ^ ^ arguments TypeArgument type ReferenceType name Integer_ter ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 56,
+        "prob": -11.789881364410771
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root control ForControl init VariableDeclaration type BasicType name int_ter ^ ^ ^ ^ declarators VariableDeclarator name n_ter ^ ^ initializer Literal value 2_ter ^ ^ ^ ^ ^ ^ ^ ^ condition BinaryOperation operator <_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr BinaryOperation operator +_ter ^ ^ operandl MemberReference member max_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ ^ ^ update MemberReference postfix_operators ++_ter ^ ^ member n_ter ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 57,
+        "prob": -12.387558203827426
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root ReturnStatement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 58,
+        "prob": -12.474591919966668
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 59,
+        "prob": -12.593237571848698
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr Literal value <string>_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 60,
+        "prob": -12.643919416202309
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member min_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 61,
+        "prob": -12.695955948462402
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member primes_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 62,
+        "prob": -13.022613913662722
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr MemberReference member ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 63,
+        "prob": -13.110290989776441
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member any_ter ^ ^ ^ ^ then_statement BlockStatement statements StatementExpression expression MethodInvocation qualifier primes_ter ^ ^ arguments MemberReference member n_ter ^ ^ ^ ^ member add_ter ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 64,
+        "prob": -13.127892334865695
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr Literal value <string>_ter ^ ^ ^ ^ ^ ^ operandr MemberReference member ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 65,
+        "prob": -13.341925865866045
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ MemberReference selectors ArraySelector index Literal value 1_ter ^ ^ ^ ^ ^ ^ member primes_ter ^ ^ ^ MemberReference selectors ArraySelector index Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 66,
+        "prob": -13.663060195452882
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr Literal value ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 67,
+        "prob": -13.723249946721234
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root ContinueStatement_ter ^ ContinueStatement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 68,
+        "prob": -13.808184485251681
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ MemberReference selectors ArraySelector index Literal value 1_ter ^ ^ ^ ^ ^ ^ member primes_ter ^ ^ ^ MemberReference selectors ArraySelector index Literal value 0_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 69,
+        "prob": -13.83796203739565
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ MemberReference selectors ArraySelector index Literal value 0_ter ^ ^ ^ ^ ^ ^ member primes_ter ^ ^ ^ MemberReference selectors ArraySelector index Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 70,
+        "prob": -13.880805395557465
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 71,
+        "prob": -13.936308211058277
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 1,
+        "code": "root Statement_ter ^ ContinueStatement_ter ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 72,
+        "prob": -13.952252333327959
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ operandr Literal value <string>_ter ^ ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 73,
+        "prob": -13.959929594239425
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ MemberReference selectors ArraySelector index Literal value 0_ter ^ ^ ^ ^ ^ ^ member primes_ter ^ ^ ^ MemberReference selectors ArraySelector index Literal value 0_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 74,
+        "prob": -14.049542835713662
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ member lastIndexOf_ter ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 75,
+        "prob": -14.204080293112526
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr MethodInvocation arguments ^ member ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 76,
+        "prob": -14.212226522865539
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr Literal value ^ ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 77,
+        "prob": -14.236922344607146
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 78,
+        "prob": -14.308026949212431
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr MemberReference member primes_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 79,
+        "prob": -14.540064670444325
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 80,
+        "prob": -14.62813293775455
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ operandr MethodInvocation qualifier primes_ter ^ ^ member ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 81,
+        "prob": -14.837845835802971
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments ^ member ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 82,
+        "prob": -14.877321103346441
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member primes_ter ^ ^ ^ ^ operandr MemberReference member primes_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 83,
+        "prob": -14.912673603543546
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator ^ operandl ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 84,
+        "prob": -14.967017791566091
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr Literal value <string>_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ MemberReference ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 85,
+        "prob": -14.998789399436408
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 86,
+        "prob": -15.059036701544176
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 87,
+        "prob": -15.075209112437806
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 2_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 88,
+        "prob": -15.111910765415765
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr MemberReference member n_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 89,
+        "prob": -15.115049844837001
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ MemberReference ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 90,
+        "prob": -15.137715896558904
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr MemberReference member n_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 91,
+        "prob": -15.138881067675808
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member primes_ter ^ ^ ^ ^ operandr MemberReference member max_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 92,
+        "prob": -15.261978050986801
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ operandr Literal value <string>_ter ^ ^ ^ ^ ^ ^ operandr MemberReference member n_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 93,
+        "prob": -15.360295293813918
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr Literal ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 94,
+        "prob": -15.36447171115613
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr Literal value ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 95,
+        "prob": -15.374056748681063
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 96,
+        "prob": -15.538264315053413
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ operandr MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 97,
+        "prob": -15.555977745261877
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr MethodInvocation arguments MemberReference member primes_ter ^ ^ ^ ^ member ^ ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 98,
+        "prob": -15.578658661883983
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr MemberReference member ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 99,
+        "prob": -15.583021205951722
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 100,
+        "prob": -15.583760994562061
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member primes_ter ^ ^ ^ ^ operandr MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 101,
+        "prob": -15.591889029432135
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr MethodInvocation arguments ^ member ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 102,
+        "prob": -15.705454576545025
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments MemberReference member max_ter ^ ^ ^ ^ member ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 103,
+        "prob": -15.713833915870977
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr MemberReference member ^ ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 104,
+        "prob": -15.785577685706125
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 105,
+        "prob": -15.79040336403813
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr BinaryOperation operator +_ter ^ ^ operandl MemberReference member ^ ^ ^ operandr ^ ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 106,
+        "prob": -15.793697409818607
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr Literal value <string>_ter ^ ^ ^ ^ ^ ^ operandr BinaryOperation operator ^ operandl ^ operandr ^ ^ ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 107,
+        "prob": -15.830500591214525
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 108,
+        "prob": -15.853015620685836
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr MethodInvocation qualifier ^ arguments ^ member ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 109,
+        "prob": -15.857247145896118
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 110,
+        "prob": -15.859067316845264
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator ^ operandl ^ operandr ^ ^ ^ operandr ^ ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 111,
+        "prob": -15.860191340747207
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator ^ operandl ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 112,
+        "prob": -15.871630591230565
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr Literal ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 113,
+        "prob": -15.940422274033548
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ operandr MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ ^ ^ operandr Literal ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 114,
+        "prob": -15.964102649179534
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value ^ ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 115,
+        "prob": -15.991122675956206
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr Literal value 1_ter ^ ^ ^ ^ ^ ^ operandr MemberReference member n_ter ^ ^ ^ ^ ^ MemberReference ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 116,
+        "prob": -16.00527781408702
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl Literal value <string>_ter ^ ^ ^ ^ operandr MethodInvocation qualifier ^ member ^ ^ ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 117,
+        "prob": -16.026518514834773
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments MemberReference member n_ter ^ ^ ^ ^ member ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 118,
+        "prob": -16.06719900796609
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments ^ member ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 119,
+        "prob": -16.0825053072853
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 120,
+        "prob": -16.097612898339715
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments MemberReference member primes_ter ^ ^ ^ ^ member ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 121,
+        "prob": -16.097965385482045
+    },
+    {
+        "id": 0,
+        "idss": "SIEVE.java",
+        "precode": [
+            0,
+            40
+        ],
+        "aftercode": [
+            41,
+            47
+        ],
+        "oldcode": [
+            40,
+            41
+        ],
+        "filename": "generation/bugs-QuixBugs/bugs/SIEVE.java/src/java_programs/SIEVE.java",
+        "mode": 0,
+        "code": "root IfStatement condition MethodInvocation arguments MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MethodInvocation arguments MemberReference member n_ter ^ ^ ^ BinaryOperation operator +_ter ^ ^ operandl BinaryOperation operator +_ter ^ ^ operandl MemberReference member n_ter ^ ^ ^ ^ operandr BinaryOperation operator +_ter ^ ^ operandl MethodInvocation arguments MemberReference member n_ter ^ ^ ^ MemberReference member primes_ter ^ ^ ^ ^ member list_comp_ter ^ ^ ^ ^ operandr ^ ^ ^ ^ ^ operandr ^ ^ ^ member ^ ^ ^ member ^ ^ ^ member ^ ^ ^ ^ ^ ",
+        "line": 41,
+        "isa": false,
+        "index": 122,
+        "prob": -16.173414558731157
+    }
+]

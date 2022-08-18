@@ -1,0 +1,15 @@
+nochangeCli13/src/java/org/apache/commons/cli2/option/GroupImpl.java
+--- 
+
++++ 
+
+@@ -138,7 +138,7 @@
+
+         }
+ 
+         // anonymous argument(s) means we can process it
+-        if (anonymous.size() > 0) {
++if((tailMap.size() > 0)){
+             return true;
+         }
+ 

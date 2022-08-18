@@ -1,0 +1,15 @@
+nochangeJsoup70/src/main/java/org/jsoup/nodes/Element.java
+--- 
+
++++ 
+
+@@ -1091,7 +1091,7 @@
+
+                 if (el.tag.preserveWhitespace())
+                     return true;
+                 else
+-                    return el.parent() != null && el.parent().tag.preserveWhitespace();
++return ((el.parent() != null) && el.parent().preserveWhitespace(el.parent()));
+         }
+         return false;
+     }

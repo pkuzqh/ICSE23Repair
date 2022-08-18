@@ -1,0 +1,15 @@
+nochangeClosure161/src/com/google/javascript/jscomp/PeepholeFoldConstants.java
+--- 
+
++++ 
+
+@@ -1299,6 +1299,8 @@
+
+       return n;
+     }
+ 
++if(!left.hasChildren()){
++return n;}
+     Node elem = left.getFirstChild();
+     for (int i = 0; elem != null && i < intIndex; i++) {
+       elem = elem.getNext();

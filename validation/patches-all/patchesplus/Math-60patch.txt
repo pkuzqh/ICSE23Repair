@@ -1,0 +1,16 @@
+nochangeMath60/src/main/java/org/apache/commons/math/util/ContinuedFraction.java
+--- 
+
++++ 
+
+@@ -180,6 +180,9 @@
+
+                   x);
+             }
+ 
++if((q2 == 0)){
++continue;
++}
+             double r = p2 / q2;
+ 
+             if (Double.isNaN(r)) {

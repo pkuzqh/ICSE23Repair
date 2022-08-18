@@ -1,0 +1,16 @@
+nochangeJsoup61/src/main/java/org/jsoup/nodes/Element.java
+--- 
+
++++ 
+
+@@ -1089,7 +1089,8 @@
+
+      */
+     // performance sensitive
+     public boolean hasClass(String className) {
+-        final String classAttr = attributes.get("class");
++final String classAttr = attributes.getIgnoreCase("class");
++
+         final int len = classAttr.length();
+         final int wantLen = className.length();
+ 

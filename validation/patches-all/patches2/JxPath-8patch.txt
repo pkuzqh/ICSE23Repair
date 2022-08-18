@@ -1,0 +1,18 @@
+nochangeJxPath8/src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
+--- 
+
++++ 
+
+@@ -90,8 +90,11 @@
+
+     private boolean containsMatch(Iterator it, Object value) {
+         while (it.hasNext()) {
+             Object element = it.next();
++if(it.hasNext()){
++
+             if (compute(element, value)) {
+                 return true;
++}
+             }
+         }
+         return false;

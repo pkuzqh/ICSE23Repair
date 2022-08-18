@@ -1,0 +1,16 @@
+nochangeJxPath13/src/java/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+--- 
+
++++ 
+
+@@ -412,7 +412,8 @@
+
+         Element element = (Element) node;
+         String prefix = name.getPrefix();
+         if (prefix != null) {
+-            String ns = getNamespaceURI(prefix);
++String ns = ((prefix == null))?getNamespaceURI(prefix):prefix;
++
+             if (ns == null) {
+                 throw new JXPathException(
+                     "Unknown namespace prefix: " + prefix);

@@ -1,0 +1,14 @@
+nochangeWRAP/src/main/java/WRAP.java
+--- 
+
++++ 
+
+@@ -29,6 +29,7 @@
+
+             lines.add(line);
+         }
+ 
++lines.add(text);
+         return lines;
+     }
+ }

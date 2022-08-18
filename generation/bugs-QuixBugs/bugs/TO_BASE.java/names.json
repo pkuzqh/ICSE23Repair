@@ -1,0 +1,28 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "TO_BASE.java",
+  "classes": [
+   {
+    "name": "TO_BASE",
+    "methods": [
+     {
+      "type": "String",
+      "name": "to_base",
+      "params": [
+       {
+        "type": "int",
+        "name": "num"
+       },
+       {
+        "type": "int",
+        "name": "b"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

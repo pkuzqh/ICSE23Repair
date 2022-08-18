@@ -1,0 +1,16 @@
+nochangeMath56/src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java
+--- 
+
++++ 
+
+@@ -236,7 +236,8 @@
+
+ 
+         int idx = 1;
+         while (count < index) {
+-            count += idx;
++count = (count + 1);
++
+             ++idx;
+         }
+         --idx;

@@ -1,0 +1,17 @@
+nochangeMockito29/src/org/mockito/internal/matchers/Same.java
+--- 
+
++++ 
+
+ @@ -26,7 +26,7 @@
+
+      public void describeTo(Description description) {
+          description.appendText("same(");
+          appendQuoting(description);
++if(wanted == null) {
++continue
++}
+          description.appendText(wanted.toString());
+          appendQuoting(description);
+          description.appendText(")");
+      }

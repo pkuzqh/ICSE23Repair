@@ -1,0 +1,16 @@
+nochangeJsoup72/src/main/java/org/jsoup/parser/CharacterReader.java
+--- 
+
++++ 
+
+@@ -55,7 +55,8 @@
+
+             reader.reset();
+             bufPos = 0;
+             bufMark = 0;
+-            bufSplitPoint = bufLength > readAheadLimit ? readAheadLimit : bufLength;
++bufSplitPoint = ((bufLength > readAheadLimit))?readAheadLimit:readAheadLimit;
++
+         } catch (IOException e) {
+             throw new UncheckedIOException(e);
+         }

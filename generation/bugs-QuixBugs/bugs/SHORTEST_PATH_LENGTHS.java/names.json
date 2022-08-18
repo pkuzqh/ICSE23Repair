@@ -1,0 +1,33 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "SHORTEST_PATH_LENGTHS.java",
+  "classes": [
+   {
+    "name": "SHORTEST_PATH_LENGTHS",
+    "methods": [
+     {
+      "type": "Map",
+      "name": "shortest_path_lengths",
+      "params": [
+       {
+        "type": "int",
+        "name": "numNodes"
+       },
+       {
+        "type": "Map",
+        "name": "length_by_edge"
+       }
+      ]
+     }
+    ],
+    "fields": [
+     {
+      "type": "int",
+      "name": "INF"
+     }
+    ]
+   }
+  ]
+ }
+]

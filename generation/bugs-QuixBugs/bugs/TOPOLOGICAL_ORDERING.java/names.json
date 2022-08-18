@@ -1,0 +1,42 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "TOPOLOGICAL_ORDERING.java",
+  "classes": [
+   {
+    "name": "BITCOUNT",
+    "methods": [
+     {
+      "type": "int",
+      "name": "bitcount",
+      "params": [
+       {
+        "type": "int",
+        "name": "n"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   },
+   {
+    "name": "Node",
+    "methods": [
+     {
+      "type": "Node",
+      "name": "getSuccessors",
+      "params": [
+      ]
+     },
+     {
+        "type": "Node",
+        "name": "getPredecessors",
+        "params": [
+        ]
+       }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

@@ -1,0 +1,15 @@
+nochangeChart25/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java
+--- 
+
++++ 
+
+@@ -104,6 +104,8 @@
+
+      * @return The mean value.
+      */
+     public Number getMeanValue(int row, int column) {
++if((row == 0)){
++return null;}
+         Number result = null;
+         MeanAndStandardDeviation masd 
+             = (MeanAndStandardDeviation) this.data.getObject(row, column);

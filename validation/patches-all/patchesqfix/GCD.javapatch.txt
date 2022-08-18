@@ -1,0 +1,15 @@
+nochangeGCD/src/main/java/GCD.java
+--- 
+
++++ 
+
+@@ -16,7 +16,6 @@
+
+         if (b == 0) {
+             return a;
+         } else {
+-            return gcd(a % b, b);
+-        }
++return gcd((b / 1), (a % b));        }
+     }
+ }

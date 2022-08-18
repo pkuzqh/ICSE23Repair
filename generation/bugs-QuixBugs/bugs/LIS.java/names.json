@@ -1,0 +1,24 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "LIS.java",
+  "classes": [
+   {
+    "name": "LIS",
+    "methods": [
+     {
+      "type": "int",
+      "name": "lis",
+      "params": [
+       {
+        "type": "int",
+        "name": "arr"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

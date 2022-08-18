@@ -1,0 +1,16 @@
+nochangeNEXT_PERMUTATION/src/main/java/NEXT_PERMUTATION.java
+--- 
+
++++ 
+
+@@ -16,8 +16,7 @@
+
+         for (int i=perm.size()-2; i!=-1; i--) {
+             if (perm.get(i) < perm.get(i+1)) {
+                 for (int j=perm.size()-1; j!=i; j--) {
+-                    if (perm.get(j) < perm.get(i)) {
+-                        ArrayList<Integer> next_perm = perm;
++if((perm.get(j) > perm.get(i))){                        ArrayList<Integer> next_perm = perm;
+                         int temp_j = perm.get(j);
+                         int temp_i = perm.get(i);
+                         next_perm.set(i,temp_j);

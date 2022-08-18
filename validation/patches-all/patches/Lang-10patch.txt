@@ -1,0 +1,15 @@
+nochangeLang10/src/main/java/org/apache/commons/lang3/time/FastDateParser.java
+--- 
+
++++ 
+
+@@ -307,7 +307,8 @@
+
+             if(Character.isWhitespace(c)) {
+-                 if(!wasWhite) {
++if(false) {
+                     wasWhite= true;
+                     regex.append("\\s*+");
+                 }
+                 continue;
+             }

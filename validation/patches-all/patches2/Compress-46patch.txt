@@ -1,0 +1,16 @@
+nochangeCompress46/src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java
+--- 
+
++++ 
+
+@@ -526,7 +526,8 @@
+
+     }
+ 
+     private static ZipLong unixTimeToZipLong(long l) {
+-        final long TWO_TO_32 = 0x100000000L;
++final long TWO_TO_32 = (l * 0x100000000L);
++
+         if (l >= TWO_TO_32) {
+             throw new IllegalArgumentException("X5455 timestamps must fit in a signed 32 bit integer: " + l);
+         }

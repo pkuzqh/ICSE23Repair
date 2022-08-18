@@ -1,0 +1,16 @@
+nochangeQUICKSORT/src/main/java/QUICKSORT.java
+--- 
+
++++ 
+
+@@ -23,8 +23,7 @@
+
+         for (Integer x : arr.subList(1, arr.size())) {
+             if (x < pivot) {
+                 lesser.add(x);
+-            } else if (x > pivot) {
+-                greater.add(x);
++}else if((x >= pivot)){                greater.add(x);
+             }
+         }
+         ArrayList<Integer> middle = new ArrayList<Integer>();

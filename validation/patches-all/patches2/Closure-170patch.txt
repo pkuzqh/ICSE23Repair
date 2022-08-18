@@ -1,0 +1,16 @@
+nochangeClosure170/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java
+--- 
+
++++ 
+
+@@ -211,7 +211,8 @@
+
+ 
+       case Token.HOOK:
+         computeMayUse(n.getLastChild(), cfgNode, output, true);
+-        computeMayUse(n.getFirstChild().getNext(), cfgNode, output, true);
++computeMayUse(n.getFirstChild().getNext(), cfgNode, output, false);
++
+         computeMayUse(n.getFirstChild(), cfgNode, output, conditional);
+         return;
+ 

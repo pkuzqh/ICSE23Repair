@@ -1,0 +1,15 @@
+nochangeJxPath10/src/java/org/apache/commons/jxpath/ri/InfoSetUtil.java
+--- 
+
++++ 
+
+@@ -49,7 +49,7 @@
+
+             return ((Boolean) object).booleanValue() ? "true" : "false";
+         }
+         if (object == null) {
+-            return "";
++
+         }
+         if (object instanceof NodePointer) {
+             return stringValue(((NodePointer) object).getValue());

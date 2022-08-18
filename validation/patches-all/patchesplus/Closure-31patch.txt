@@ -1,0 +1,16 @@
+nochangeClosure31/src/com/google/javascript/jscomp/CompilerOptions.java
+--- 
+
++++ 
+
+@@ -1016,7 +1016,8 @@
+
+    * Skip all possible passes, to make the compiler as fast as possible.
+    */
+   public void skipAllCompilerPasses() {
+-    skipAllPasses = true;
++nameAnonymousFunctionsOnly = true;
++
+   }
+ 
+   /**

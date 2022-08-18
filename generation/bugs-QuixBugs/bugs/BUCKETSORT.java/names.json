@@ -1,0 +1,28 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "BUCKETSORT.java",
+  "classes": [
+   {
+    "name": "BUCKETSORT",
+    "methods": [
+     {
+      "type": "ArrayList",
+      "name": "bucketsort",
+      "params": [
+       {
+        "type": "ArrayList",
+        "name": "arr"
+       },
+       {
+        "type": "int",
+        "name": "k"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

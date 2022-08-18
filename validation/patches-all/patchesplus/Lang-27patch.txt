@@ -1,0 +1,16 @@
+nochangeLang27/src/main/java/org/apache/commons/lang3/math/NumberUtils.java
+--- 
+
++++ 
+
+@@ -486,7 +486,8 @@
+
+             mant = str.substring(0, decPos);
+         } else {
+             if (expPos > -1) {
+-                mant = str.substring(0, expPos);
++mant = str.substring(0, (expPos - 1));
++
+             } else {
+                 mant = str;
+             }

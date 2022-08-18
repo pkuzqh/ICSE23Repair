@@ -1,0 +1,16 @@
+nochangeClosure33/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java
+--- 
+
++++ 
+
+@@ -564,6 +564,9 @@
+
+     // We want to modify the object literal to match the constraint, by
+     // taking any each property on the record and trying to match
+     // properties on this object.
++if(hasReferenceName()){
++return;
++}
+     if (constraintObj.isRecordType()) {
+       for (String prop : constraintObj.getOwnPropertyNames()) {
+         JSType propType = constraintObj.getPropertyType(prop);

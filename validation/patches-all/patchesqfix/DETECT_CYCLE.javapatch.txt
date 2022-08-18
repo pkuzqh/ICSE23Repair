@@ -1,0 +1,16 @@
+nochangeDETECT_CYCLE/src/main/java/DETECT_CYCLE.java
+--- 
+
++++ 
+
+@@ -16,7 +16,8 @@
+
+         Node tortoise = node;
+ 
+         while (true) {
+-            if (hare.getSuccessor() == null)
++if((hare == null)){
++return false;}            if (hare.getSuccessor() == null)
+                 return false;
+ 
+             tortoise = tortoise.getSuccessor();

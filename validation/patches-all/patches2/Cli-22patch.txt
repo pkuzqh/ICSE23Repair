@@ -1,0 +1,16 @@
+nochangeCli22/src/java/org/apache/commons/cli/PosixParser.java
+--- 
+
++++ 
+
+@@ -145,7 +145,8 @@
+
+             }
+             else if (stopAtNonOption)
+             {
+-                processNonOptionToken(token);
++processOptionToken(token, stopAtNonOption);
++
+             }
+             else
+             {

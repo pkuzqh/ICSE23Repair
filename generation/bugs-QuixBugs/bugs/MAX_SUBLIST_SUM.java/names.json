@@ -1,0 +1,24 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "MAX_SUBLIST_SUM.java",
+  "classes": [
+   {
+    "name": "MAX_SUBLIST_SUM",
+    "methods": [
+     {
+      "type": "int",
+      "name": "max_sublist_sum",
+      "params": [
+       {
+        "type": "int",
+        "name": "arr"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

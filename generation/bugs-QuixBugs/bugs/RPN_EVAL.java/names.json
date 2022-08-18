@@ -1,0 +1,24 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "RPN_EVAL.java",
+  "classes": [
+   {
+    "name": "RPN_EVAL",
+    "methods": [
+     {
+      "type": "Double",
+      "name": "rpn_eval",
+      "params": [
+       {
+        "type": "ArrayList",
+        "name": "tokens"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "MERGESORT.java",
+  "classes": [
+   {
+    "name": "MERGESORT",
+    "methods": [
+     {
+      "type": "ArrayList",
+      "name": "merge",
+      "params": [
+       {
+        "type": "ArrayList",
+        "name": "left"
+       },
+       {
+        "type": "ArrayList",
+        "name": "right"
+       }
+      ]
+     },
+     {
+      "type": "ArrayList",
+      "name": "mergesort",
+      "params": [
+       {
+        "type": "ArrayList",
+        "name": "arr"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

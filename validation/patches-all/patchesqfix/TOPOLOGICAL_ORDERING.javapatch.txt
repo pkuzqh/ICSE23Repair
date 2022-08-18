@@ -1,0 +1,16 @@
+nochangeTOPOLOGICAL_ORDERING/src/main/java/TOPOLOGICAL_ORDERING.java
+--- 
+
++++ 
+
+@@ -14,8 +14,7 @@
+
+         for (int i = 0; i < listSize; i++) {
+             Node node = orderedNodes.get(i);
+             for (Node nextNode : node.getSuccessors()) {
+-                if (orderedNodes.containsAll(nextNode.getSuccessors()) && !orderedNodes.contains(nextNode)) {
+-                    orderedNodes.add(nextNode);
++if((orderedNodes.containsAll(nextNode.getPredecessors()) && !orderedNodes.contains(nextNode))){                    orderedNodes.add(nextNode);
+                     listSize++;
+                 }
+             }

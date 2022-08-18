@@ -1,0 +1,24 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "IS_VALID_PARENTHESIZATION.java",
+  "classes": [
+   {
+    "name": "IS_VALID_PARENTHESIZATION",
+    "methods": [
+     {
+      "type": "Boolean",
+      "name": "is_valid_parenthesization",
+      "params": [
+       {
+        "type": "String",
+        "name": "parens"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

@@ -1,0 +1,15 @@
+nochangeJxPath7/src/java/org/apache/commons/jxpath/ri/InfoSetUtil.java
+--- 
+
++++ 
+
+@@ -117,6 +117,8 @@
+
+         }
+         if (object instanceof EvalContext) {
+             EvalContext ctx = (EvalContext) object;
++if(ctx.hasNext()){
++return doubleValue(stringValue(object));}
+             Pointer ptr = ctx.getSingleNodePointer();
+             return ptr == null ? Double.NaN : doubleValue(ptr);
+         }

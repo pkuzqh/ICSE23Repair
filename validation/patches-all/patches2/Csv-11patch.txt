@@ -1,0 +1,16 @@
+nochangeCsv11/src/main/java/org/apache/commons/csv/CSVParser.java
+--- 
+
++++ 
+
+@@ -380,6 +380,9 @@
+
+             if (headerRecord != null) {
+                 for (int i = 0; i < headerRecord.length; i++) {
+                     final String header = headerRecord[i];
++if((header == null)){
++continue;
++}
+                     final boolean containsHeader = hdrMap.containsKey(header);
+                     final boolean emptyHeader = header.trim().isEmpty();
+                     if (containsHeader && (!emptyHeader || (emptyHeader && !this.format.getIgnoreEmptyHeaders()))) {

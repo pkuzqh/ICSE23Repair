@@ -1,0 +1,15 @@
+nochangeMath28/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+--- 
+
++++ 
+
+@@ -136,6 +136,8 @@
+
+             //                       revert to the simple case of just returning the top-most row
+             // This heuristic is based on empirical data gathered while investigating MATH-828.
+                 Integer minRow = null;
++if((minRow == null)){
++return minRatioPositions.get(0);}
+                 int minIndex = tableau.getWidth();
+                 for (Integer row : minRatioPositions) {
+                     int i = tableau.getNumObjectiveFunctions();

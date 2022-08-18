@@ -1,0 +1,1 @@
+            result = String.valueOf(alphabet.charAt(i))+result;

@@ -1,0 +1,15 @@
+nochangeJacksonCore25/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java
+--- 
+
++++ 
+
+@@ -1802,6 +1802,8 @@
+
+                 ++ptr;
+             } while (ptr < inputLen);
+         }
++_reportUnexpectedChar(i, "null");
++
+         int start = _inputPtr-1;
+         _inputPtr = ptr;
+         return _handleOddName2(start, hash, codes);

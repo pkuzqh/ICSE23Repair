@@ -1,0 +1,15 @@
+nochangeCodec5/src/java/org/apache/commons/codec/binary/Base64.java
+--- 
+
++++ 
+
+@@ -591,6 +591,8 @@
+
+                     buffer[pos++] = (byte) ((x >> 16) & MASK_8BITS);
+                     break;
+                 case 3 :
++resizeBuffer();
++
+                     buffer[pos++] = (byte) ((x >> 16) & MASK_8BITS);
+                     buffer[pos++] = (byte) ((x >> 8) & MASK_8BITS);
+                     break;

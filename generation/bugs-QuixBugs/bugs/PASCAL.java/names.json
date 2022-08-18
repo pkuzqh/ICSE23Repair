@@ -1,0 +1,24 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "PASCAL.java",
+  "classes": [
+   {
+    "name": "PASCAL",
+    "methods": [
+     {
+      "type": "ArrayList",
+      "name": "pascal",
+      "params": [
+       {
+        "type": "int",
+        "name": "n"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

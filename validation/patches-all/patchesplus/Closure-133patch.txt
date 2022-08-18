@@ -1,0 +1,15 @@
+nochangeClosure133/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+--- 
+
++++ 
+
+@@ -1835,6 +1835,8 @@
+
+       }
+     }
+ 
++if(hasParsedJSDocInfo()){
++return parseTypeName(token);}
+     restoreLookAhead(token);
+     return reportGenericTypeSyntaxWarning();
+   }

@@ -1,0 +1,16 @@
+nochangeCodec16/src/main/java/org/apache/commons/codec/binary/Base32.java
+--- 
+
++++ 
+
+@@ -282,7 +282,8 @@
+
+                 lineSeparator == null ? 0 : lineSeparator.length, pad);
+         if (useHex) {
+             this.encodeTable = HEX_ENCODE_TABLE;
+-            this.decodeTable = HEX_DECODE_TABLE;
++this.decodeTable = CHUNK_SEPARATOR;
++
+         } else {
+             this.encodeTable = ENCODE_TABLE;
+             this.decodeTable = DECODE_TABLE;

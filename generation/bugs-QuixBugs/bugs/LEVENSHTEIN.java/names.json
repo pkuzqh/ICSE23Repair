@@ -1,0 +1,28 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "LEVENSHTEIN.java",
+  "classes": [
+   {
+    "name": "LEVENSHTEIN",
+    "methods": [
+     {
+      "type": "int",
+      "name": "levenshtein",
+      "params": [
+       {
+        "type": "String",
+        "name": "source"
+       },
+       {
+        "type": "String",
+        "name": "target"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

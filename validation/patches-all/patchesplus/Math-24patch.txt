@@ -1,0 +1,18 @@
+nochangeMath24/src/main/java/org/apache/commons/math3/analysis/FunctionUtils.java
+--- 
+
++++ 
+
+@@ -142,8 +142,11 @@
+
+             /** {@inheritDoc} */
+             public double value(double x) {
+                 double r = f[0].value(x);
++if((r > 0)){
++
+                 for (int i = 1; i < f.length; i++) {
+                     r += f[i].value(x);
++}
+                 }
+                 return r;
+             }

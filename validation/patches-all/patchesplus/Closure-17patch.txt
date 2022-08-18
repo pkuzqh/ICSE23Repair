@@ -1,0 +1,16 @@
+nochangeClosure17/src/com/google/javascript/jscomp/TypedScopeCreator.java
+--- 
+
++++ 
+
+@@ -1288,7 +1288,8 @@
+
+           if (info.isConstant()) {
+             JSType knownType = null;
+             if (rValue != null) {
+-              if (rValue.getJSType() != null && !rValue.getJSType().isUnknownType()) {
++if((((rValue.getJSType() != null) && !rValue.getJSType().isUnknownType()) && !rValue.hasChildren())){
++
+                 // If rValue has a type-cast, we use the type in the type-cast.
+                 // If rValue's type was already computed during scope creation,
+                 // then we can safely use that.

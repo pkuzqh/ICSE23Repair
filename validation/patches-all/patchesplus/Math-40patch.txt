@@ -1,0 +1,15 @@
+nochangeMath40/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
+--- 
+
++++ 
+
+@@ -262,6 +262,8 @@
+
+                         ++start;
+                     } else {
+                         // we have more points after sign change, drop the highest point
++++start;
++
+                         --end;
+                     }
+ 

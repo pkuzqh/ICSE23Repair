@@ -1,0 +1,38 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "WRAP.java",
+  "classes": [
+   {
+    "name": "WRAP",
+    "methods": [
+     {
+      "type": null,
+      "name": "main",
+      "params": [
+       {
+        "type": "String",
+        "name": "args"
+       }
+      ]
+     },
+     {
+      "type": "ArrayList",
+      "name": "wrap",
+      "params": [
+       {
+        "type": "String",
+        "name": "text"
+       },
+       {
+        "type": "int",
+        "name": "cols"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

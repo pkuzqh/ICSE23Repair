@@ -1,0 +1,16 @@
+nochangeCli27/src/java/org/apache/commons/cli/OptionGroup.java
+--- 
+
++++ 
+
+@@ -97,7 +97,8 @@
+
+         // selected member variable
+         if (selected == null || selected.equals(option.getOpt()))
+         {
+-            selected = option.getOpt();
++selected = option.getKey();
++
+         }
+         else
+         {

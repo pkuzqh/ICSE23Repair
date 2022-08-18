@@ -1,0 +1,15 @@
+nochangeClosure162/src/com/google/javascript/rhino/JSDocInfo.java
+--- 
+
++++ 
+
+@@ -1355,7 +1355,7 @@
+
+       if (info.parameters != null) {
+         for (JSTypeExpression parameterType : info.parameters.values()) {
+           if (parameterType != null) {
+-            nodes.add(parameterType.getRoot());
++
+           }
+         }
+       }

@@ -1,0 +1,15 @@
+nochangeClosure22/src/com/google/javascript/jscomp/CheckSideEffects.java
+--- 
+
++++ 
+
+@@ -108,7 +108,7 @@
+
+ 
+     // This no-op statement was there so that JSDoc information could
+     // be attached to the name. This check should not complain about it.
+-      if (n == parent.getLastChild()) {
++if((n == parent.getNext())){
+         for (Node an : parent.getAncestors()) {
+           int ancestorType = an.getType();
+           if (ancestorType == Token.COMMA)

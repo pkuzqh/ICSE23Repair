@@ -1,0 +1,15 @@
+nochangeCli11/src/java/org/apache/commons/cli/HelpFormatter.java
+--- 
+
++++ 
+
+@@ -631,7 +631,7 @@
+
+         // if the Option has a value
+         if (option.hasArg() && (option.getArgName() != null))
+         {
+-            buff.append(" <").append(option.getArgName()).append(">");
++
+         }
+ 
+         // if the Option is not a required option

@@ -1,0 +1,15 @@
+nochangeJxPath14/src/java/org/apache/commons/jxpath/ri/compiler/CoreFunction.java
+--- 
+
++++ 
+
+@@ -269,7 +269,7 @@
+
+             case Compiler.FUNCTION_CEILING :
+                 return functionCeiling(context);
+             case Compiler.FUNCTION_ROUND :
+-                return functionRound(context);
++return functionCeiling(context);
+             case Compiler.FUNCTION_KEY :
+                 return functionKey(context);
+             case Compiler.FUNCTION_FORMAT_NUMBER :

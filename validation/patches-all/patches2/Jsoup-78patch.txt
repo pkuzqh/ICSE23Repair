@@ -1,0 +1,16 @@
+nochangeJsoup78/src/main/java/org/jsoup/internal/ConstrainableInputStream.java
+--- 
+
++++ 
+
+@@ -106,7 +106,8 @@
+
+ 
+     public ConstrainableInputStream timeout(long startTimeNanos, long timeoutMillis) {
+         this.startTime = startTimeNanos;
+-        this.timeout = timeoutMillis * 1000000;
++this.timeout = (timeoutMillis * timeoutMillis);
++
+         return this;
+     }
+ 

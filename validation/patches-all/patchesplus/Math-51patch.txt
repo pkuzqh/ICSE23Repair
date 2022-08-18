@@ -1,0 +1,15 @@
+nochangeMath51/src/main/java/org/apache/commons/math/exception/MathIllegalStateException.java
+--- 
+
++++ 
+
+@@ -75,7 +75,7 @@
+
+     /** {@inheritDoc} */
+     @Override
+     public String getMessage() {
+-        return context.getMessage();
++return context.getMessage(null);
+     }
+ 
+     /** {@inheritDoc} */

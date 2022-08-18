@@ -1,0 +1,15 @@
+nochangeJxPath12/src/java/org/apache/commons/jxpath/ri/JXPathContextReferenceImpl.java
+--- 
+
++++ 
+
+@@ -650,6 +650,8 @@
+
+     }
+ 
+     public String getNamespaceURI(String prefix) {
++prefix = prefix.toLowerCase();
++
+         return namespaceResolver.getNamespaceURI(prefix);
+     }
+ 

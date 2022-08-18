@@ -1,0 +1,15 @@
+nochangeBREADTH_FIRST_SEARCH/src/main/java/BREADTH_FIRST_SEARCH.java
+--- 
+
++++ 
+
+@@ -21,7 +21,7 @@
+
+ 
+         nodesvisited.add(startnode);
+ 
+-        while (true) {
++while(!queue.isEmpty()){
+             Node node = queue.removeFirst();
+ 
+             if (node == goalnode) {

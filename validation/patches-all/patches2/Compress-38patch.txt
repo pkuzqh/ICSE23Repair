@@ -1,0 +1,21 @@
+nochangeCompress38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java
+--- 
+
++++ 
+
+@@ -857,7 +857,7 @@
+
+         }
+ 
+         if (getName().endsWith("/")) {
+-            return true;
++return false;
+         }
+ 
+         return false;
+@@ -1250,4 +1250,3 @@
+
+         }
+     }
+ }
+-

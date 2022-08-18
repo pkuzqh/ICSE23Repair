@@ -1,0 +1,16 @@
+nochangeCompress45/src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java
+--- 
+
++++ 
+
+@@ -519,7 +519,8 @@
+
+         final BigInteger val = BigInteger.valueOf(value);
+         final byte[] b = val.toByteArray();
+         final int len = b.length;
+-        if (len > length - 1) {
++if((len > length)){
++
+             throw new IllegalArgumentException("Value " + value +
+                 " is too large for " + length + " byte field.");
+         }

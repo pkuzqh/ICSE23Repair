@@ -1,0 +1,32 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "SUBSEQUENCES.java",
+  "classes": [
+   {
+    "name": "SUBSEQUENCES",
+    "methods": [
+     {
+      "type": "ArrayList",
+      "name": "subsequences",
+      "params": [
+       {
+        "type": "int",
+        "name": "a"
+       },
+       {
+        "type": "int",
+        "name": "b"
+       },
+       {
+        "type": "int",
+        "name": "k"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

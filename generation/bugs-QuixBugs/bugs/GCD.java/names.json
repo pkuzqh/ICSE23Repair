@@ -1,0 +1,28 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "GCD.java",
+  "classes": [
+   {
+    "name": "GCD",
+    "methods": [
+     {
+      "type": "int",
+      "name": "gcd",
+      "params": [
+       {
+        "type": "int",
+        "name": "a"
+       },
+       {
+        "type": "int",
+        "name": "b"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

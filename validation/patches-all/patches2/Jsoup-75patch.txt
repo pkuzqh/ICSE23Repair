@@ -1,0 +1,17 @@
+nochangeJsoup75/src/main/java/org/jsoup/parser/TokeniserState.java
+--- 
+
++++ 
+
+@@ -767,7 +767,10 @@
+
+             if (value.length() > 0)
+                 t.tagPending.appendAttributeValue(value);
+             else
++if((value.length() > 0)){
++
+                 t.tagPending.setEmptyAttributeValue();
++}
+ 
+             char c = r.consume();
+             switch (c) {

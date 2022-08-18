@@ -1,0 +1,28 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "LONGEST_COMMON_SUBSEQUENCE.java",
+  "classes": [
+   {
+    "name": "LONGEST_COMMON_SUBSEQUENCE",
+    "methods": [
+     {
+      "type": "String",
+      "name": "longest_common_subsequence",
+      "params": [
+       {
+        "type": "String",
+        "name": "a"
+       },
+       {
+        "type": "String",
+        "name": "b"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

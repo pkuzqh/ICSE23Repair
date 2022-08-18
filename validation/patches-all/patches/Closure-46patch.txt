@@ -1,0 +1,14 @@
+nochangeClosure46/src/com/google/javascript/rhino/jstype/RecordType.java
+--- 
+
++++ 
+
+@@ -142,6 +142,7 @@
+
+     if (!that.isRecordType()) {
+       return super.getLeastSupertype(that);
+     }
++if(0!=1){return super.getLeastSupertype(that);}
+     RecordTypeBuilder builder = new RecordTypeBuilder(registry);
+     for (String property : properties.keySet()) {
+       if (that.toMaybeRecordType().hasProperty(property) &&

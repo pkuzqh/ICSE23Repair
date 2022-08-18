@@ -1,0 +1,15 @@
+nochangeCli23/src/java/org/apache/commons/cli/HelpFormatter.java
+--- 
+
++++ 
+
+@@ -825,6 +825,8 @@
+
+             text = padding + text.substring(pos).trim();
+             pos = findWrapPos(text, width, 0);
+ 
++if((pos == lastPos)){
++return sb;}
+             if (pos == -1)
+             {
+                 sb.append(text);

@@ -1,0 +1,15 @@
+nochangeClosure102/src/com/google/javascript/jscomp/Normalize.java
+--- 
+
++++ 
+
+@@ -86,6 +86,8 @@
+
+   @Override
+   public void process(Node externs, Node root) {
+     NodeTraversal.traverse(compiler, root, this);
++removeDuplicateDeclarations(root);
++
+     if (MAKE_LOCAL_NAMES_UNIQUE) {
+       MakeDeclaredNamesUnique renamer = new MakeDeclaredNamesUnique();
+       NodeTraversal t = new NodeTraversal(compiler, renamer);

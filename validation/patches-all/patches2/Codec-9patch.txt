@@ -1,0 +1,16 @@
+nochangeCodec9/src/java/org/apache/commons/codec/binary/Base64.java
+--- 
+
++++ 
+
+@@ -973,7 +973,8 @@
+
+         long len = (pArray.length * 4) / 3;
+         long mod = len % 4;
+         if (mod != 0) {
+-            len += 4 - mod;
++len += (1 - mod);
++
+         }
+         if (chunkSize > 0) {
+             boolean lenChunksPerfectly = len % chunkSize == 0;

@@ -1,0 +1,15 @@
+nochangeJxPath20/src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
+--- 
+
++++ 
+
+@@ -85,7 +85,7 @@
+
+             return containsMatch((Iterator) left, right);
+         }
+         if (right instanceof Iterator) {
+-            return containsMatch((Iterator) right, left);
++
+         }
+         double ld = InfoSetUtil.doubleValue(left);
+         if (Double.isNaN(ld)) {

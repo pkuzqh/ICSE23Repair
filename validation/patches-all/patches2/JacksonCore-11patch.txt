@@ -1,0 +1,15 @@
+nochangeJacksonCore11/src/main/java/com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+--- 
+
++++ 
+
+@@ -928,6 +928,8 @@
+
+          */
+         final int end = (_hashSize << 3);
+         if (_spilloverEnd >= end) {
++release();
++
+             if (_failOnDoS) {
+                 _reportTooManyCollisions();
+             }

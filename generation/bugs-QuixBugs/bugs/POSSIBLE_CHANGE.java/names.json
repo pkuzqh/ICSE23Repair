@@ -1,0 +1,28 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "POSSIBLE_CHANGE.java",
+  "classes": [
+   {
+    "name": "POSSIBLE_CHANGE",
+    "methods": [
+     {
+      "type": "int",
+      "name": "possible_change",
+      "params": [
+       {
+        "type": "int",
+        "name": "coins"
+       },
+       {
+        "type": "int",
+        "name": "total"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

@@ -1,0 +1,15 @@
+nochangePOSSIBLE_CHANGE/src/main/java/POSSIBLE_CHANGE.java
+--- 
+
++++ 
+
+@@ -14,7 +14,7 @@
+
+         if (total == 0) {
+             return 1;
+         }
+-        if (total < 0) {
++if(((total < 0) || (coins.length == 0))){
+             return 0;
+         }
+ 

@@ -1,0 +1,15 @@
+nochangeFLATTEN/src/main/java/FLATTEN.java
+--- 
+
++++ 
+
+@@ -23,7 +23,6 @@
+
+             }
+             return result;
+ 	} else {
+-	    return flatten(arr);
+-	}
++return arr;	}
+     }
+ }

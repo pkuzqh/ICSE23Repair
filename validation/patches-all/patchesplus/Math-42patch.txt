@@ -1,0 +1,15 @@
+nochangeMath42/src/main/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+--- 
+
++++ 
+
+@@ -317,6 +317,8 @@
+
+                 return null;
+             }
+         }
++if((row == numArtificialVariables)){
++return null;}
+         return row;
+     }
+ 

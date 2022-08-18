@@ -1,0 +1,15 @@
+nochangeCli40/src/main/java/org/apache/commons/cli/TypeHandler.java
+--- 
+
++++ 
+
+@@ -100,7 +100,7 @@
+
+         }
+         else
+         {
+-            return null;
++return (T)createURL(str);
+         }
+     }
+ 

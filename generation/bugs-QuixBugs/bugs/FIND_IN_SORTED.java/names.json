@@ -1,0 +1,50 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "FIND_IN_SORTED.java",
+  "classes": [
+   {
+    "name": "FIND_IN_SORTED",
+    "methods": [
+     {
+      "type": "int",
+      "name": "binsearch",
+      "params": [
+       {
+        "type": "int",
+        "name": "arr"
+       },
+       {
+        "type": "int",
+        "name": "x"
+       },
+       {
+        "type": "int",
+        "name": "start"
+       },
+       {
+        "type": "int",
+        "name": "end"
+       }
+      ]
+     },
+     {
+      "type": "int",
+      "name": "find_in_sorted",
+      "params": [
+       {
+        "type": "int",
+        "name": "arr"
+       },
+       {
+        "type": "int",
+        "name": "x"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

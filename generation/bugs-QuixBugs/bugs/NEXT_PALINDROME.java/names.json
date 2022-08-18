@@ -1,0 +1,24 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "NEXT_PALINDROME.java",
+  "classes": [
+   {
+    "name": "NEXT_PALINDROME",
+    "methods": [
+     {
+      "type": "String",
+      "name": "next_palindrome",
+      "params": [
+       {
+        "type": "int",
+        "name": "digit_list"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

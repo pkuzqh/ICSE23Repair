@@ -1,0 +1,15 @@
+nochangeClosure5/src/com/google/javascript/jscomp/InlineObjectLiterals.java
+--- 
+
++++ 
+
+@@ -182,6 +182,8 @@
+
+           // We short-circuit this problem by bailing out if we see a reference
+           // to a property that isn't defined on the object literal. This
+           // isn't a perfect algorithm, but it should catch most cases.
++if(gramps.isDelProp()){
++return false;}
+           String propName = parent.getLastChild().getString();
+           if (!validProperties.contains(propName)) {
+             if (NodeUtil.isVarOrSimpleAssignLhs(parent, gramps)) {

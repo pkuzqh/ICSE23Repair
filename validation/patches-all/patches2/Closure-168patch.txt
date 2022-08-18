@@ -1,0 +1,19 @@
+nochangeClosure168/src/com/google/javascript/jscomp/TypedScopeCreator.java
+--- 
+
++++ 
+
+@@ -2005,10 +2005,8 @@
+
+         return;
+       }
+ 
+-      if (n.isName() && NodeUtil.isLValue(n) &&
+-          // Be careful of bleeding functions, which create variables
+-          // in the inner scope, not the scope where the name appears.
+-          !NodeUtil.isBleedingFunctionName(n)) {
++if((n.isName() && !NodeUtil.isBleedingFunctionName(n))){
++
+         String name = n.getString();
+         Scope scope = t.getScope();
+         Var var = scope.getVar(name);

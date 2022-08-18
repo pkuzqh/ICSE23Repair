@@ -1,0 +1,16 @@
+nochangeJsoup64/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java
+--- 
+
++++ 
+
+@@ -119,7 +119,8 @@
+
+                     } else if (name.equals("title")) {
+                         handleRcData(start, tb);
+                     } else if (StringUtil.in(name, "noframes", "style")) {
+-                        handleRawtext(start, tb);
++handleRcData(start, tb);
++
+                     } else if (name.equals("noscript")) {
+                         // else if noscript && scripting flag = true: rawtext (jsoup doesn't run script, to handle as noscript)
+                         tb.insert(start);

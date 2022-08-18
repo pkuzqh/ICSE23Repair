@@ -1,0 +1,15 @@
+nochangeClosure160/src/com/google/javascript/jscomp/ShowByPathWarningsGuard.java
+--- 
+
++++ 
+
+@@ -70,7 +70,7 @@
+
+         return CheckLevel.OFF;
+       }
+     }
+-    return null;
++return CheckLevel.ERROR;
+   }
+ 
+   @Override

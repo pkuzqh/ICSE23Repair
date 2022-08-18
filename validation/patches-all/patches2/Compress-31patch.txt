@@ -1,0 +1,15 @@
+nochangeCompress31/src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java
+--- 
+
++++ 
+
+@@ -133,7 +133,7 @@
+
+         for ( ;start < end; start++) {
+             final byte currentByte = buffer[start];
+             if (currentByte == 0) {
+-                break;
++
+             }
+             // CheckStyle:MagicNumber OFF
+             if (currentByte < '0' || currentByte > '7'){

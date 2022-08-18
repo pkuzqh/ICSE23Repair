@@ -1,0 +1,16 @@
+nochangeJacksonXml5/src/main/java/com/fasterxml/jackson/dataformat/xml/util/XmlRootNameLookup.java
+--- 
+
++++ 
+
+@@ -46,7 +46,8 @@
+
+         ClassKey key = new ClassKey(rootType);
+         QName name;
+         synchronized (_rootNames) {
+-            name = _rootNames.get(key);
++name = _rootNames.get(config);
++
+         }
+         if (name != null) {
+             return name;

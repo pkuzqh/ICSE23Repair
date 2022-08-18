@@ -1,0 +1,14 @@
+nochangeFIND_IN_SORTED/src/main/java/FIND_IN_SORTED.java
+--- 
+
++++ 
+
+@@ -17,6 +17,7 @@
+
+         if (x < arr[mid]) {
+             return binsearch(arr, x, start, mid);
+         } else if (x > arr[mid]) {
++mid++;
+             return binsearch(arr, x, mid, end);
+         } else {
+             return mid;

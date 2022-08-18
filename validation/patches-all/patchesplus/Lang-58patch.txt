@@ -1,0 +1,18 @@
+nochangeLang58/src/java/org/apache/commons/lang/math/NumberUtils.java
+--- 
+
++++ 
+
+@@ -449,10 +449,7 @@
+
+             switch (lastChar) {
+                 case 'l' :
+                 case 'L' :
+-                    if (dec == null
+-                        && exp == null
+-                        && isDigits(numeric.substring(1))
+-                        && (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0)))) {
++if(((((dec == null) && (exp == null)) && isDigits(numeric.substring(1))) || ((numeric.charAt(0) == '-') || Character.isDigit(numeric.charAt(0))))){
+                         try {
+                             return createLong(numeric);
+                         } catch (NumberFormatException nfe) {

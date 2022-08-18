@@ -1,0 +1,28 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "KNAPSACK.java",
+  "classes": [
+   {
+    "name": "KNAPSACK",
+    "methods": [
+     {
+      "type": "int",
+      "name": "knapsack",
+      "params": [
+       {
+        "type": "int",
+        "name": "capacity"
+       },
+       {
+        "type": "int",
+        "name": "items"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

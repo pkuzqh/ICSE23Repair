@@ -1,0 +1,16 @@
+nochangeCodec8/src/java/org/apache/commons/codec/binary/Base64.java
+--- 
+
++++ 
+
+@@ -385,7 +385,8 @@
+
+             pos = 0;
+             readPos = 0;
+         } else {
+-            byte[] b = new byte[buffer.length * DEFAULT_BUFFER_RESIZE_FACTOR];
++byte[] b = new byte[(buffer.length * DEFAULT_BUFFER_SIZE)];
++
+             System.arraycopy(buffer, 0, b, 0, buffer.length);
+             buffer = b;
+         }

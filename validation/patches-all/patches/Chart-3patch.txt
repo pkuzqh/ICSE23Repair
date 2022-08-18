@@ -1,0 +1,15 @@
+nochangeChart3/source/org/jfree/data/time/TimeSeries.java
+--- 
+
++++ 
+
+@@ -1055,6 +1055,8 @@
+
+         }
+         TimeSeries copy = (TimeSeries) super.clone();
+         copy.data = new java.util.ArrayList();
++copy.findBoundsByIteration();
++
+         if (this.data.size() > 0) {
+             for (int index = start; index <= end; index++) {
+                 TimeSeriesDataItem item

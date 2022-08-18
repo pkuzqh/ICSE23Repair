@@ -1,0 +1,16 @@
+nochangeMath88/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+--- 
+
++++ 
+
+@@ -336,7 +336,8 @@
+
+             if (basicRow != null) {
+                 for (int j = getNumObjectiveFunctions(); j < getNumObjectiveFunctions() + i; j++) {
+                     if (tableau.getEntry(basicRow, j) == 1) {
+-                         coefficients[i] = 0;
++coefficients[(j - 1)] = 0;
++
+                     }
+                 }
+             }

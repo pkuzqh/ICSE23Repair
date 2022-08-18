@@ -1,0 +1,14 @@
+nochangeClosure21/src/com/google/javascript/jscomp/CheckSideEffects.java
+--- 
+
++++ 
+
+@@ -116,6 +116,7 @@
+
+       }
+       if (n == parent.getLastChild()) {
+         for (Node an : parent.getAncestors()) {
++if(0!=1)break;
+           int ancestorType = an.getType();
+           if (ancestorType == Token.COMMA) continue;
+           if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;

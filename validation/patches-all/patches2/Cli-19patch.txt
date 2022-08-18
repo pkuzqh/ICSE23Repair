@@ -1,0 +1,16 @@
+nochangeCli19/src/java/org/apache/commons/cli/PosixParser.java
+--- 
+
++++ 
+
+@@ -131,7 +131,8 @@
+
+             {
+                 if (token.length() == 2)
+                 {
+-                    processOptionToken(token, stopAtNonOption);
++burstToken(token, stopAtNonOption);
++
+                 }
+                 else if (options.hasOption(token))
+                 {

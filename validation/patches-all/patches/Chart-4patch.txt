@@ -1,0 +1,16 @@
+nochangeChart4/source/org/jfree/chart/plot/XYPlot.java
+--- 
+
++++ 
+
+@@ -4471,6 +4471,9 @@
+
+             XYDataset d = (XYDataset) iterator.next();
+             if (d != null) {
+                 XYItemRenderer r = getRendererForDataset(d);
++if((r == null)){
++continue;
++}
+                 if (isDomainAxis) {
+                     if (r != null) {
+                         result = Range.combine(result, r.findDomainBounds(d));

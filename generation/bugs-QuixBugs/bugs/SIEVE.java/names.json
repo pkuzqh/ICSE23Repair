@@ -1,0 +1,58 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "SIEVE.java",
+  "classes": [
+   {
+    "name": "SIEVE",
+    "methods": [
+     {
+      "type": "boolean",
+      "name": "all",
+      "params": [
+       {
+        "type": "ArrayList",
+        "name": "arr"
+       }
+      ]
+     },
+     {
+      "type": "boolean",
+      "name": "any",
+      "params": [
+       {
+        "type": "ArrayList",
+        "name": "arr"
+       }
+      ]
+     },
+     {
+      "type": "ArrayList",
+      "name": "list_comp",
+      "params": [
+       {
+        "type": "int",
+        "name": "n"
+       },
+       {
+        "type": "ArrayList",
+        "name": "primes"
+       }
+      ]
+     },
+     {
+      "type": "ArrayList",
+      "name": "sieve",
+      "params": [
+       {
+        "type": "Integer",
+        "name": "max"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

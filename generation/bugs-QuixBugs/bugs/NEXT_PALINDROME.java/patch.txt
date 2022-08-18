@@ -1,0 +1,1 @@
+	otherwise.addAll(Collections.nCopies(digit_list.length-1, 0));

@@ -1,0 +1,15 @@
+nochangeCompress35/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java
+--- 
+
++++ 
+
+@@ -717,6 +717,8 @@
+
+             return true;
+         }
+         // COMPRESS-107 - recognise Ant tar files
++if(ArchiveUtils.matchAsciiBuffer(TarConstants.VERSION_ANT, signature, TarConstants.VERSION_OFFSET, TarConstants.VERSIONLEN)){
++return true;}
+         if (ArchiveUtils.matchAsciiBuffer(TarConstants.MAGIC_ANT,
+                 signature, TarConstants.MAGIC_OFFSET, TarConstants.MAGICLEN)
+             &&

@@ -1,0 +1,15 @@
+nochangeChart26/source/org/jfree/chart/axis/Axis.java
+--- 
+
++++ 
+
+@@ -1189,6 +1189,8 @@
+
+         }
+         if (plotState != null && hotspot != null) {
+             ChartRenderingInfo owner = plotState.getOwner();
++if((owner == null)){
++return state;}
+                 EntityCollection entities = owner.getEntityCollection();
+                 if (entities != null) {
+                     entities.add(new AxisLabelEntity(this, hotspot, 

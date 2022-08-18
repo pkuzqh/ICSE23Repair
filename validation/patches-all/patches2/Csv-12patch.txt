@@ -1,0 +1,15 @@
+nochangeCsv12/src/main/java/org/apache/commons/csv/CSVFormat.java
+--- 
+
++++ 
+
+@@ -502,6 +502,8 @@
+
+      *         {@link IllegalArgumentException}.
+      */
+     public boolean getAllowMissingColumnNames() {
++if(!getIgnoreEmptyLines()){
++return true;}
+         return allowMissingColumnNames;
+     }
+ 

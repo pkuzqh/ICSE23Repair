@@ -1,0 +1,28 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "FIND_FIRST_IN_SORTED.java",
+  "classes": [
+   {
+    "name": "FIND_FIRST_IN_SORTED",
+    "methods": [
+     {
+      "type": "int",
+      "name": "find_first_in_sorted",
+      "params": [
+       {
+        "type": "int",
+        "name": "arr"
+       },
+       {
+        "type": "int",
+        "name": "x"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

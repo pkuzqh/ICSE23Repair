@@ -1,0 +1,16 @@
+nochangeMERGESORT/src/main/java/MERGESORT.java
+--- 
+
++++ 
+
+@@ -35,8 +35,7 @@
+
+     }
+ 
+     public static ArrayList<Integer> mergesort(ArrayList<Integer> arr) {
+-        if (arr.size() == 0) { // <= 1 in correct version
+-            return arr;
++if((arr.size() == 1)){            return arr;
+         } else {
+             int middle = arr.size() / 2;
+             ArrayList<Integer> left = new ArrayList<Integer>(100);

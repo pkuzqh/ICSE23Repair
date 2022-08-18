@@ -1,0 +1,16 @@
+nochangeClosure118/src/com/google/javascript/jscomp/DisambiguateProperties.java
+--- 
+
++++ 
+
+@@ -494,6 +494,9 @@
+
+         // Maybe STRING, GET, SET
+ 
+         // We should never see a mix of numbers and strings.
++if(child.isQuotedString()){
++continue;
++}
+         String name = child.getString();
+         T type = typeSystem.getType(getScope(), n, name);
+ 

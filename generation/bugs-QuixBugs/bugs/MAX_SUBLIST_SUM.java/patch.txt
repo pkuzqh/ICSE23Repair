@@ -1,0 +1,1 @@
+            max_ending_here = Math.max(0,max_ending_here + x);

@@ -1,0 +1,15 @@
+nochangeJsoup77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java
+--- 
+
++++ 
+
+@@ -115,6 +115,8 @@
+
+      */
+     private void popStackToClose(Token.EndTag endTag) {
+         String elName = endTag.name();
++elName = elName.toLowerCase();
++
+         Element firstFound = null;
+ 
+         for (int pos = stack.size() -1; pos >= 0; pos--) {

@@ -1,0 +1,1 @@
+                    if (perm.get(j) > perm.get(i)) {

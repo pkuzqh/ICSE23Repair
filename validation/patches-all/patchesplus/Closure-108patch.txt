@@ -1,0 +1,21 @@
+nochangeClosure108/src/com/google/javascript/jscomp/ScopedAliases.java
+--- 
+
++++ 
+
+@@ -415,12 +415,8 @@
+
+           // Add $jscomp.scope.name = EXPR;
+           // Make sure we copy over all the jsdoc and debug info.
+           if (value != null || v.getJSDocInfo() != null) {
+-            Node newDecl = NodeUtil.newQualifiedNameNodeDeclaration(
+-                compiler.getCodingConvention(),
+-                globalName,
+-                value,
+-                v.getJSDocInfo())
+-                .useSourceInfoIfMissingFromForTree(n);
++Node newDecl = NodeUtil.newQualifiedNameNodeDeclaration(compiler.getCodingConvention(), globalName, value, n.getJSDocInfo()).useSourceInfoIfMissingFromForTree(n);
++
+             NodeUtil.setDebugInformation(
+                 newDecl.getFirstChild().getFirstChild(), n, name);
+ 

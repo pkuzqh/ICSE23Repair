@@ -1,0 +1,24 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "QUICKSORT.java",
+  "classes": [
+   {
+    "name": "QUICKSORT",
+    "methods": [
+     {
+      "type": "ArrayList",
+      "name": "quicksort",
+      "params": [
+       {
+        "type": "ArrayList",
+        "name": "arr"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

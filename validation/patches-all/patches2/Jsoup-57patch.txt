@@ -1,0 +1,15 @@
+nochangeJsoup57/src/main/java/org/jsoup/nodes/Attributes.java
+--- 
+
++++ 
+
+@@ -117,6 +117,8 @@
+
+      */
+     public void removeIgnoreCase(String key) {
+         Validate.notEmpty(key);
++attributes = null;
++
+         if (attributes == null)
+             return;
+         for (Iterator<String> it = attributes.keySet().iterator(); it.hasNext(); ) {

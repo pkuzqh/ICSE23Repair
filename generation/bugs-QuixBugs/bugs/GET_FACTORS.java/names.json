@@ -1,0 +1,24 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "GET_FACTORS.java",
+  "classes": [
+   {
+    "name": "GET_FACTORS",
+    "methods": [
+     {
+      "type": "ArrayList",
+      "name": "get_factors",
+      "params": [
+       {
+        "type": "int",
+        "name": "n"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

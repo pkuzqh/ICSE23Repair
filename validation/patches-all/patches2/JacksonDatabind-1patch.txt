@@ -1,0 +1,15 @@
+nochangeJacksonDatabind1/src/main/java/com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java
+--- 
+
++++ 
+
+@@ -585,7 +585,7 @@
+
+         Object value = get(bean);
+         if (value == null) { // nulls need specialized handling
+             if (_nullSerializer != null) {
+-                _nullSerializer.serialize(null, jgen, prov);
++
+             } else { // can NOT suppress entries in tabular output
+                 jgen.writeNull();
+             }

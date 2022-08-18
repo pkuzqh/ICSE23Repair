@@ -1,0 +1,24 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "NEXT_PERMUTATION.java",
+  "classes": [
+   {
+    "name": "NEXT_PERMUTATION",
+    "methods": [
+     {
+      "type": "ArrayList",
+      "name": "next_permutation",
+      "params": [
+       {
+        "type": "ArrayList",
+        "name": "perm"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

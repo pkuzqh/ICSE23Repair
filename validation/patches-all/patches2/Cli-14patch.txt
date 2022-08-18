@@ -1,0 +1,16 @@
+nochangeCli14/src/java/org/apache/commons/cli2/option/GroupImpl.java
+--- 
+
++++ 
+
+@@ -259,7 +259,8 @@
+
+                     break;
+                 }
+ 
+-                option.validate(commandLine);
++option.defaults(commandLine);
++
+             }
+         }
+ 

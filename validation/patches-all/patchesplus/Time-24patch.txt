@@ -1,0 +1,15 @@
+nochangeTime24/src/main/java/org/joda/time/LocalDate.java
+--- 
+
++++ 
+
+@@ -573,7 +573,7 @@
+
+         if (partial instanceof LocalDate) {
+             LocalDate other = (LocalDate) partial;
+             if (iChronology.equals(other.iChronology)) {
+-                return iLocalMillis == other.iLocalMillis;
++return (iLocalMillis >= other.iLocalMillis);
+             }
+         }
+         return super.equals(partial);

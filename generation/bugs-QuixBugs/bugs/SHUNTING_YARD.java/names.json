@@ -1,0 +1,24 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "SHUNTING_YARD.java",
+  "classes": [
+   {
+    "name": "SHUNTING_YARD",
+    "methods": [
+     {
+      "type": "List",
+      "name": "shunting_yard",
+      "params": [
+       {
+        "type": "ArrayList",
+        "name": "tokens"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

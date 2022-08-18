@@ -1,0 +1,16 @@
+nochangeMath100/src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java
+--- 
+
++++ 
+
+@@ -90,6 +90,9 @@
+
+      * @param p parameter to add
+      */
+     protected void addParameter(EstimatedParameter p) {
++if(p.isBound()){
++return;
++}
+         parameters.add(p);
+     }
+ 

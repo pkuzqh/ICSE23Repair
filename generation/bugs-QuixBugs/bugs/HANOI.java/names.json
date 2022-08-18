@@ -1,0 +1,32 @@
+[
+ {
+  "package_name": "java_programs",
+  "filename": "HANOI.java",
+  "classes": [
+   {
+    "name": "HANOI",
+    "methods": [
+     {
+      "type": "List",
+      "name": "hanoi",
+      "params": [
+       {
+        "type": "int",
+        "name": "height"
+       },
+       {
+        "type": "int",
+        "name": "start"
+       },
+       {
+        "type": "int",
+        "name": "end"
+       }
+      ]
+     }
+    ],
+    "fields": []
+   }
+  ]
+ }
+]

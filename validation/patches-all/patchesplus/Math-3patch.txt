@@ -1,0 +1,16 @@
+nochangeMath3/src/main/java/org/apache/commons/math3/util/MathArrays.java
+--- 
+
++++ 
+
+@@ -820,7 +820,8 @@
+
+ 
+             // Revert to scalar multiplication.
+ 
+-        final double[] prodHigh = new double[len];
++final double[] prodHigh = new double[(len + 1)];
++
+         double prodLowSum = 0;
+ 
+         for (int i = 0; i < len; i++) {

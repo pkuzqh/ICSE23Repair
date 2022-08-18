@@ -1,0 +1,15 @@
+nochangeMath20/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
+--- 
+
++++ 
+
+@@ -237,7 +237,7 @@
+
+      * Default constructor, uses default parameters
+      */
+     public CMAESOptimizer() {
+-        this(0);
++
+     }
+ 
+     /**

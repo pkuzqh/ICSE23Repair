@@ -1,0 +1,5 @@
+        	 ArrayList empty_set = new ArrayList<ArrayList>();
+
+         empty_set.add(new ArrayList());
+
+         return empty_set;
