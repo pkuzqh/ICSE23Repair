@@ -1,0 +1,16 @@
+nochangeCli8/src/java/org/apache/commons/cli/HelpFormatter.java
+--- 
+
++++ 
+
+@@ -809,7 +809,8 @@
+
+         while (true)
+         {
+             text = padding + text.substring(pos).trim();
+-            pos = findWrapPos(text, width, nextLineTabStop);
++pos = findWrapPos(text, width, 0);
++
+ 
+             if (pos == -1)
+             {

@@ -1,0 +1,15 @@
+nochangeJxPath12/src/java/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+--- 
+
++++ 
+
+@@ -105,6 +105,8 @@
+
+                 || testName.getName()
+                         .equals(DOMNodePointer.getLocalName(node))) {
+                 String nodeNS = DOMNodePointer.getNamespaceURI(node);
++if(testName.getName().equals(DOMNodePointer.getLocalName(node))){
++return true;}
+                 return equalStrings(namespaceURI, nodeNS);
+             }
+             return false;

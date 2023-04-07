@@ -1,0 +1,15 @@
+nochangeClosure15/src/com/google/javascript/jscomp/FlowSensitiveInlineVariables.java
+--- 
+
++++ 
+
+@@ -91,6 +91,8 @@
+
+         // TODO(user): We only care about calls to functions that
+         // passes one of the dependent variable to a non-side-effect free
+         // function.
++if(n.isDelProp()){
++return true;}
+         if (n.isCall() && NodeUtil.functionCallHasSideEffects(n)) {
+           return true;
+         }

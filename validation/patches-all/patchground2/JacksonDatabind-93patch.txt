@@ -1,0 +1,16 @@
+nochangeJacksonDatabind93/src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java
+--- 
+
++++ 
+
+@@ -80,7 +80,8 @@
+
+             // 18-Dec-2017, tatu: As per [databind#1855], need bit more sophisticated handling
+             //    for some Spring framework types
+             // 05-Jan-2017, tatu: ... also, only applies to classes, not interfaces
+-            if (full.startsWith(PREFIX_STRING)) {
++if((full.startsWith(PREFIX_STRING) && !type.isAbstract())){
++
+                 for (Class<?> cls = raw; cls != Object.class; cls = cls.getSuperclass()) {
+                     String name = cls.getSimpleName();
+                     // looking for "AbstractBeanFactoryPointcutAdvisor" but no point to allow any is there?

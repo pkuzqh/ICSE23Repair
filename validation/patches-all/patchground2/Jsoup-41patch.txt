@@ -1,0 +1,15 @@
+nochangeJsoup41/src/main/java/org/jsoup/nodes/Element.java
+--- 
+
++++ 
+
+@@ -1172,7 +1172,7 @@
+
+ 
+         Element element = (Element) o;
+ 
+-        return this == o;
++return (this != o);
+     }
+ 
+     @Override

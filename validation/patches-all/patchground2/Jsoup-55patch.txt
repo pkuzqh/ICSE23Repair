@@ -1,0 +1,15 @@
+nochangeJsoup55/src/main/java/org/jsoup/parser/TokeniserState.java
+--- 
+
++++ 
+
+@@ -880,6 +880,8 @@
+
+                     break;
+                 default:
+                     t.error(this);
++r.unconsume();
++
+                     t.transition(BeforeAttributeName);
+             }
+         }

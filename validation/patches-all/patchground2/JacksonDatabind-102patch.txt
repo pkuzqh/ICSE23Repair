@@ -1,0 +1,15 @@
+nochangeJacksonDatabind102/src/main/java/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java
+--- 
+
++++ 
+
+@@ -64,7 +64,7 @@
+
+     {
+         // Note! Should not skip if `property` null since that'd skip check
+         // for config overrides, in case of root value
+-        if (property == null) {
++if(false){
+             return this;
+         }
+         JsonFormat.Value format = findFormatOverrides(serializers, property, handledType());

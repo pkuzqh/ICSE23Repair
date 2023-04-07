@@ -1,0 +1,15 @@
+nochangeJxPath22/src/java/org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+--- 
+
++++ 
+
+@@ -686,7 +686,7 @@
+
+                 if (aNode.getNodeType() == Node.ELEMENT_NODE) {
+                     Attr attr = ((Element) aNode).getAttributeNode(qname);
+                     if (attr != null) {
+-                        return attr.getValue();
++return null;
+                     }
+                 }
+                 aNode = aNode.getParentNode();

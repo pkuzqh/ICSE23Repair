@@ -1,0 +1,16 @@
+nochangeJsoup88/src/main/java/org/jsoup/nodes/Attribute.java
+--- 
+
++++ 
+
+@@ -77,6 +77,9 @@
+
+      @return the attribute value
+      */
+     public String getValue() {
++if((val == null)){
++val = new String();
++}
+         return val;
+     }
+ 

@@ -1,0 +1,15 @@
+nochangeJacksonCore8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java
+--- 
+
++++ 
+
+@@ -304,6 +304,8 @@
+
+             return (_resultArray = _resultString.toCharArray());
+         }
+         // Nope; but does it fit in just one segment?
++if((_currentSegment == null)){
++return contentsAsArray();}
+         if (!_hasSegments)  return _currentSegment;
+         // Nope, need to have/create a non-segmented array and return it
+         return contentsAsArray();

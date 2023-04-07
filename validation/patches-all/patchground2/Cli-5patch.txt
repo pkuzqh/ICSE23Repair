@@ -1,0 +1,15 @@
+nochangeCli5/src/java/org/apache/commons/cli/Util.java
+--- 
+
++++ 
+
+@@ -33,6 +33,8 @@
+
+      */
+     static String stripLeadingHyphens(String str)
+     {
++if((str == null)){
++return str;}
+         if (str.startsWith("--"))
+         {
+             return str.substring(2, str.length());

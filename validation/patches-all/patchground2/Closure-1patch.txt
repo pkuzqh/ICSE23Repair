@@ -1,0 +1,16 @@
+nochangeClosure1/src/com/google/javascript/jscomp/RemoveUnusedVars.java
+--- 
+
++++ 
+
+@@ -377,6 +377,9 @@
+
+     //
+     // See http://code.google.com/p/closure-compiler/issues/detail?id=253
+ 
++if(!removeGlobals){
++return;
++}
+     Node function = fnScope.getRootNode();
+ 
+     Preconditions.checkState(function.isFunction());

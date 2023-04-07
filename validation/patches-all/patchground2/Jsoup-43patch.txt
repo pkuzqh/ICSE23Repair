@@ -1,0 +1,15 @@
+nochangeJsoup43/src/main/java/org/jsoup/nodes/Element.java
+--- 
+
++++ 
+
+@@ -571,7 +571,7 @@
+
+ 
+         for (int i = 0; i < elements.size(); i++) {
+             E element = elements.get(i);
+-            if (element.equals(search))
++if((search == element))
+                 return i;
+         }
+         return null;

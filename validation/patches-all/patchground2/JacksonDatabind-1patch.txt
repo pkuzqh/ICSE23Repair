@@ -1,0 +1,16 @@
+nochangeJacksonDatabind1/src/main/java/com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java
+--- 
+
++++ 
+
+@@ -591,6 +591,9 @@
+
+             }
+         }
+         // otherwise find serializer to use
++if((value == null)){
++return;
++}
+         JsonSerializer<Object> ser = _serializer;
+         if (ser == null) {
+             Class<?> cls = value.getClass();

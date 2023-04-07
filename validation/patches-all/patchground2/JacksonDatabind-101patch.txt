@@ -1,0 +1,15 @@
+nochangeJacksonDatabind101/src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializer.java
+--- 
+
++++ 
+
+@@ -768,7 +768,7 @@
+
+                     // if so, need to copy all remaining tokens into buffer
+                     while (t == JsonToken.FIELD_NAME) {
+                         // NOTE: do NOT skip name as it needs to be copied; `copyCurrentStructure` does that
+-                        p.nextToken();
++
+                         tokens.copyCurrentStructure(p);
+                         t = p.nextToken();
+                     }
