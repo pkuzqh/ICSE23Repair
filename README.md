@@ -38,6 +38,27 @@ The raw data https://drive.google.com/drive/folders/1ECNX98qj9FMdRT2MXOUY6aQ6-sN
 ### [Defects4J](https://github.com/rjust/defects4j)
 ### [QuixBugs](https://github.com/jkoppel/QuixBugs)
 
+# Updated Result
+❗❗❗ We test Tare with the perfect fault localization on Defects4J 2.0.
+
+| Project          | Bugs | TBar | SimFix | Recoder | RewardRepair | Tare |**Tare+PerfectLocation**|
+|------------------|------|------|--------|---------|--------------|------|--------------------|
+| Cli              | 39   | 1/7  | 0/4    | 3/3     | 2/-          | **5/13** |**8**|
+| Closure          | 43   | 0/5  | **1/5**| 0/7     | **1/-**      | 0/5   |**1**|
+| JacksonDatabind  | 112  | 0/0  | 0/0    | 0/0     | 3/-          | 0/4   |0|
+| Codec            | 18   | 2/6  | 0/2    | 2/2     | 3/-          | 3/7  |**5**|
+| Collections      | 4    | 0/1  | 0/1    | 0/0     | 0/-          | 0/0   |0|
+| Compress         | 47   | 1/13 | 0/6    | 3/9     | 0/-          | **4/13** |**4**|
+| Csv              | 16   | 0/2  | 1/5    | 4/4     | 2/-          | **5/7**  |**5**|
+| JacksonCore      | 26   | 0/6  | 0/0    | 0/4     | 1/-          | 2/7  |**14**|
+| Jsoup            | 93   | 3/7  | 1/5    | 7/13    | 4/-          | 10/16|**14**|
+| JxPath           | 22   | 0/0  | 0/0    | 0/4     | **3/-**      | 2/10  |**3**|
+| Gson             | 18   | 0/0  | 0/0    | 0/0     | **1/-**      | **1/1**   |**1**|
+| JacksonXml       | 6    | 0/0  | 0/0    | 0/0     | 0/-          | 0/1   |0|
+| **Total**        | 444  | 8/50 | 2/25   | 19/46   | 20/-         | 32/84|**55**|
+
+
+
 # Usage
 
 ## Train a New Model
