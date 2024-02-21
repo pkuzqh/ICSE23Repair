@@ -1,5 +1,5 @@
 # ICSE2023Repair
-A PyTorch Implementation of "Tare: Type-Aware Neural Program Repair"
+A PyTorch Implementation of ["Tare: Type-Aware Neural Program Repair"](https://xiongyingfei.github.io/papers/ICSE23a.pdf).
 
 # Introduction
 Automated program repair (APR) aims to reduce the effort for software development. With the development of deep learning, lots of DL-based APR approaches have been proposed using an encoder-decoder architecture. Despite the promising performance, these models share one same limitation: generating lots of untypable patches. The main reason for this phenomenon is that the existing models do not consider the constraints of code captured by a set of typing rules.
@@ -43,6 +43,7 @@ The raw data https://drive.google.com/drive/folders/1ECNX98qj9FMdRT2MXOUY6aQ6-sN
 
 | Project          | Bugs | TBar | SimFix | Recoder | RewardRepair | Tare |**Tare+PerfectLocation**|
 |------------------|------|------|--------|---------|--------------|------|--------------------|
+||Original Result|Original Result|Original Result|Original Result|Original Result|Original Result|Updated Result|
 | Cli              | 39   | 1/7  | 0/4    | 3/3     | 2/-          | **5/13** |**8**|
 | Closure          | 43   | 0/5  | **1/5**| 0/7     | **1/-**      | 0/5   |**1**|
 | JacksonDatabind  | 112  | 0/0  | 0/0    | 0/0     | 3/-          | 0/4   |0|
@@ -56,6 +57,7 @@ The raw data https://drive.google.com/drive/folders/1ECNX98qj9FMdRT2MXOUY6aQ6-sN
 | Gson             | 18   | 0/0  | 0/0    | 0/0     | **1/-**      | **1/1**   |**1**|
 | JacksonXml       | 6    | 0/0  | 0/0    | 0/0     | 0/-          | 0/1   |0|
 | **Total**        | 444  | 8/50 | 2/25   | 19/46   | 20/-         | 32/84|**55**|
+
 
 
 
