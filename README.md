@@ -41,6 +41,8 @@ The raw data https://drive.google.com/drive/folders/1ECNX98qj9FMdRT2MXOUY6aQ6-sN
 # Updated Result
 ❗❗❗ We test Tare with the perfect fault localization on Defects4J 2.0.
 
+The left of table below is copied the original Table V in the paper, showing the results using Ochiai for fault localization, where "x/y" indicates the approach correctly repairs x bugs and produces plausible patches for y bugs (a plausible patch passes all the tests). The last column is newly added, showing the number of bugs Tare correctly repairs with perfect fault localization. Only the first plausible patch is considered in the experiment. 
+
 | Project          | Bugs | TBar | SimFix | Recoder | RewardRepair | Tare |**Tare+PerfectLocation**|
 |------------------|------|------|--------|---------|--------------|------|--------------------|
 ||Original Result|Original Result|Original Result|Original Result|Original Result|Original Result|Updated Result|
